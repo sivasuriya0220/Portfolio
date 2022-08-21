@@ -17,8 +17,93 @@
       background-color: #3DBBC3;
       font-family: Arial, Helvetica, sans-serif;
     }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 600,
+      'GRAD' 0,
+      'opsz' 40
+    }
+
+    .navbar-custom {
+      background-color: #3DBBC3;
+      margin-bottom: 10px;
+    }
+    /* .navbar-nav>li{
+      margin-left: 20px;
+    } */
+
+    #myNavbar ul li a {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    #myNavbar ul li a:hover{
+      color: #023047;
+    }
+
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+      background-color: transparent;
+      border-color: #023047;
+    }
+
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    .dropdown-menu {
+      background-color: #023047;
+    }
+
+    .navbar-header img {
+      width: 50px;
+      height: 20px;
+    }
+
+    .navbar-header button {
+      background-color: #023047;
+    }
+
+    .navbar-header span {
+      background-color: #FFFFFF;
+    }
 </style>
 <body>
-<h1 class="text-center">In Progress...</h1>
+    <nav class="navbar navbar-custom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/sivasuriya0220/Portfolio/222d4fa557cb50f0f92f7c3007906e8732302f46/images/logo.svg"
+              alt="Logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">About Me</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mobile Design</a></li>
+                <li><a href="#">Website Design</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="button-small" type="button">Contact</button>
+        </div>
+      </div>
+    </nav>
+    <div>
+        <h1 class="text-center"><strong>In Progress...</strong></h1>
+    </div>
 </body>
 </html>
