@@ -129,6 +129,32 @@
     h3{
       color: #023047;
     }
+    .accordion {
+      background-color: #023047;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      text-align: center;
+      outline: none;
+      font-size: 14px;
+      transition: 0.4s;
+      border-radius: 5px;
+    }
+
+    .accordion:hover {
+      color: #3DBBC3; 
+    }
+
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: #023047;
+      overflow: hidden;
+      color: #ffffff;
+    }
+
     @media screen and (max-width: 480px){
       .container1{
         width:100%;
@@ -190,6 +216,46 @@
   </span>
   <h1>You can imagaine, I can do.</h1>
   </div>
+
+  <div>
+    <h3 class="text-center"><strong>Education</strong></h3>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <button class="accordion"><strong>Post Graduation</strong></button>
+        <div class="panel">
+          <p>Master of Computer Application(MCA)</p>
+          <p>Velalar College of Engineering and Technology</p>
+          <p>Academic Year: 2019 - 2021</p>
+          <p>CGPA: 8.9</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("hover");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>  
 </body>
 
 </html>
