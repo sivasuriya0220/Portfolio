@@ -1,109 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siva Suriya Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,600,1,0" />
-</head>
-<style>
-    body {
-      background-color: #3DBBC3;
-      font-family: Arial, Helvetica, sans-serif;
-    }
 
-    .material-symbols-outlined {
-      font-variation-settings:
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Suriya Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,600,1,0"
+      />
+  </head>
+  <style>
+  body {
+    background-color: #3DBBC3;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
       'FILL' 1,
       'wght' 600,
       'GRAD' 0,
       'opsz' 40
-    }
+  }
 
-    .navbar-custom {
-      background-color: #3DBBC3;
-      margin-bottom: 10px;
-    }
-    /* .navbar-nav>li{
+  .navbar-custom {
+    background-color: #3DBBC3;
+    margin-bottom: 10px;
+  }
+
+  /* .navbar-nav>li{
       margin-left: 20px;
     } */
 
-    #myNavbar ul li a {
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 500;
-    }
-    #myNavbar ul li a:hover{
-      color: #023047;
-    }
+  #myNavbar ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-    .nav .open>a,
-    .nav .open>a:focus,
-    .nav .open>a:hover {
-      background-color: transparent;
-      border-color: #023047;
-    }
+  #myNavbar ul li a:hover {
+    color: #023047;
+  }
 
-    .nav>li>a:focus,
-    .nav>li>a:hover {
-      text-decoration: none;
-      background-color: transparent;
-    }
+  .nav .open>a,
+  .nav .open>a:focus,
+  .nav .open>a:hover {
+    background-color: transparent;
+    border-color: #023047;
+  }
 
-    .dropdown-menu {
-      background-color: #023047;
-    }
+  .nav>li>a:focus,
+  .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+  }
 
-    .navbar-header img {
-      width: 50px;
-      height: 20px;
-    }
+  .dropdown-menu {
+    background-color: #023047;
+  }
 
-    .navbar-header button {
-      background-color: #023047;
-    }
+  .navbar-header img {
+    width: 50px;
+    height: 20px;
+  }
 
-    .navbar-header span {
-      background-color: #FFFFFF;
-    }
-    .button-small{
-      margin: 5px 0;
-      padding: 7px 15px;
-      vertical-align: text-top;
-      background-color: #023047;
-      color: #ffffff;
-      font-weight: 600;
-      border-style: none;
-      border-radius: 5px;
-    }
-    .button-small:hover{
-      background-color: #000000;
-      color: #3DBBC3;
-    }
-    h1{
-      font-style: oblique;
-      font-size: 24px;
-      font-weight: 600;
-      color: #FFFFFF;
-      letter-spacing: 5px;
-    }
+  .navbar-header button {
+    background-color: #023047;
+  }
+
+  .navbar-header span {
+    background-color: #FFFFFF;
+  }
+
+  .button-small {
+    margin: 5px 0;
+    padding: 7px 15px;
+    vertical-align: text-top;
+    background-color: #023047;
+    color: #ffffff;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 5px;
+  }
+
+  .button-small:hover {
+    background-color: #000000;
+    color: #3DBBC3;
+  }
+
+  h1 {
+    font-style: oblique;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+  }
+
+  h3{
+    color: #023047;
+  }
+  h4{
+    color: #ffffff;
+  }
+
+  .progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.progress-bar {
+    float: left;
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #023047;
+    -webkit-box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
 </style>
-<body>
+  <body>
     <nav class="navbar navbar-custom">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="https://raw.githubusercontent.com/sivasuriya0220/Portfolio/222d4fa557cb50f0f92f7c3007906e8732302f46/images/logo.svg"
+          <a class="navbar-brand" href="index.html"><img
+              src="https://raw.githubusercontent.com/sivasuriya0220/Portfolio/222d4fa557cb50f0f92f7c3007906e8732302f46/images/logo.svg"
               alt="Logo"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -112,7 +165,8 @@
             <li><a href="About.html">About Me</a></li>
             <li class="active"><a href="#">Skills</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span
+                  class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="Mobile Design.html">Mobile Design</a></li>
                 <li><a href="Web Design.html">Website Design</a></li>
@@ -124,7 +178,50 @@
       </div>
     </nav>
     <div>
-        <h1 class="text-center"><strong>In Progress...</strong></h1>
+      <h3 class="text-center"><strong>Skills</strong></h3>
     </div>
-</body>
+
+
+    <div class="container">
+      <h4>Sketch</h4>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:88%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>Figma</h4>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:92%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>HTML</h4>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>CSS</h4>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>Bootstrap</h4>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+      </div>
+    </div>
+
+  </body>
+
 </html>
