@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siva Suriya Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Serif&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Serif&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=PT+Serif&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script
@@ -144,6 +148,27 @@
     -o-transition: width .6s ease;
     transition: width .6s ease;
 }
+.page-image img{
+      width: 80%;
+    }
+@media screen and (max-width: 480px){
+      .page-image img{
+      width: 80%;
+    }
+    .page-image{
+      display: flex;
+      justify-content: center;
+    }
+    }
+    @media screen and (max-width: 768px){
+      .page-image img{
+      width: 80%;
+    }
+    .page-image{
+      display: flex;
+      justify-content: center;
+    }
+    }
 </style>
   <body>
     <nav class="navbar navbar-custom">
@@ -181,44 +206,68 @@
       <h3 class="text-center"><strong>Skills</strong></h3>
     </div>
 
-
     <div class="container">
-      <h4>Sketch</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar"
-        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:88%"></div>
-      </div>
-    </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="page-image">
+            <img
+              src="C:\Users\Lenovo\Documents\GitHub\Portfolio\images\Skills.svg"
+              alt="Skills">
+          </div>
+        </div>
 
-    <div class="container">
-      <h4>Figma</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar"
-        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:92%"></div>
-      </div>
-    </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div>
+            <h4>Sketch</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active"
+                role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                style="width:88%"></div>
+            </div>
+          </div>
 
-    <div class="container">
-      <h4>HTML</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar"
-        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
-      </div>
-    </div>
+          <div>
+            <h4>Figma</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active"
+                role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                style="width:92%"></div>
+            </div>
+          </div>
 
-    <div class="container">
-      <h4>CSS</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar"
-        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
-      </div>
-    </div>
+          <div>
+            <h4>HTML</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active"
+                role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                style="width:95%"></div>
+            </div>
+          </div>
 
-    <div class="container">
-      <h4>Bootstrap</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped active" role="progressbar"
-        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+          <div>
+            <h4>CSS</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active"
+                role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                style="width:90%"></div>
+            </div>
+          </div>
+
+          <div>
+            <h4>Bootstrap</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active"
+                role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                style="width:80%"></div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
