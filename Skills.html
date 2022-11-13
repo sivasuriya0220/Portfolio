@@ -156,6 +156,11 @@
     -o-transition: width .6s ease;
     transition: width .6s ease;
 }
+.r-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .page-image img{
       width: 80%;
     }
@@ -163,9 +168,11 @@
       .page-image img{
       width: 80%;
     }
-    .page-image{
+    .r-flex{
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     }
     @media screen and (max-width: 768px){
@@ -218,7 +225,7 @@
     </div>
 
     <div class="container">
-      <div class="row margin-20">
+      <div class="row margin-20 r-flex">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div class="page-image">
             <img
